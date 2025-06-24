@@ -22,4 +22,4 @@ Performed prompt engineering on a dialogue summarization task using the Flan-T5 
     - config1 utilized max_new_tokens=50, do_sample=True, temperature=0.2, and top_k=20.
     - config2 incorporated max_new_tokens=50, do_sample=True, temperature=0.2, top_p=0.85, and num_beams=3.
     - config3 set max_new_tokens=50, do_sample=False, num_beams=4, num_beam_groups=2, and diversity_penalty=0.2. <br>
-    The summaries generated with these different configurations for the same input showed variations, demonstrating the impact of these generative parameters on the model's output. A warning message was also observed indicating that both max_new_tokens and max_length appeared to be set, with max_new_tokens taking precedence
+  The summaries generated with these different configurations for the same input showed variations, demonstrating the impact of these generative parameters on the model's output. A warning message was also observed indicating that both max_new_tokens and max_length appeared to be set, with max_new_tokens taking precedence
